@@ -1,0 +1,31 @@
+# Fortran compilation artifacts
+*.o
+*.mod
+*.smod
+*.a
+*.so
+
+# Executables
+main
+test_main
+*.exe
+*.out
+
+# Generated simulation data
+*.csv
+
+# Python bytecode & environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+
+# Editor & OS temporary files
+.DS_Store
+Thumbs.db
+*~
+*.swp
+
+# Private project notes
+task.md
